@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1, h2{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#palya{
+    background-color: antiquewhite;
+    max-width: 90vh;
+    /* width: 95%; */
+    margin:0 auto;
+}
+
+.cella{
+    width:10vh;
+    height:10vh;
+    background-color: yellow;
+    border:1px solid black;
+    background-size: cover;
+    float:left
+    /* background-image: url("../img/1.png"); */
+}
+.sor::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.kitalalt{
+  filter: grayscale(0.8);
+}
+body{
+   
+}
